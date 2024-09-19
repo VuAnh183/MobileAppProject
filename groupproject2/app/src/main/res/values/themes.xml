@@ -7,11 +7,9 @@
         <!-- Item color onClick?-->
         <item name="colorPrimary">@color/white</item>
 
-        <item name="colorPrimaryVariant">@color/gray</item>
+        <item name="colorPrimaryVariant">@color/white</item>
 
         <item name="colorOnPrimary">@color/gray</item>
-        
-        <item name="android:navigationBarColor">@color/gray</item>
     </style>
 
     <style name="Theme.Groupproject" parent="Base.Theme.Groupproject" />
@@ -19,6 +17,9 @@
     <style name="Theme.BottomNavigation" parent="Theme.MaterialComponents.DayNight.NoActionBar">
 
 
+    </style>
 
+    <style name="tab_text" parent="TextAppearance.Design.Tab">
+        <item name="android:fontFamily">@font/satoshi_bold</item>
     </style>
 </resources>

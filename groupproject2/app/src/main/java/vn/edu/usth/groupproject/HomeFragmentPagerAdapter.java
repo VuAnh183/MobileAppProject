@@ -6,7 +6,7 @@ import androidx.fragment.app.FragmentPagerAdapter;
 
 public class HomeFragmentPagerAdapter extends FragmentPagerAdapter {
     private final int PAGE_COUNT = 4;
-    private String titles[] = new String[] { "News", "Videos", "Artist", "Playlist" };
+    private String titles[] = new String[] { "News", "Videos", "Artist", "Podcast" };
     public HomeFragmentPagerAdapter(FragmentManager fm) {
         super(fm);
     }
@@ -24,7 +24,7 @@ public class HomeFragmentPagerAdapter extends FragmentPagerAdapter {
     }
     @Override
     public CharSequence getPageTitle(int page) {
-// returns a tab title corresponding to the specified page
+        // returns a tab title corresponding to the specified page
         return titles[page];
     }
 }

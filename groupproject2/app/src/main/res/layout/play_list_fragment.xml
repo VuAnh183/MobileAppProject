@@ -46,12 +46,15 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal">
 
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@drawable/play"
+            <ToggleButton
+                android:layout_width="37dp"
+                android:layout_height="37dp"
+                android:background="@drawable/play_pause_toggle"
                 android:layout_marginStart="45dp"
-                android:layout_gravity="center"/>
+                android:layout_gravity="center"
+                android:textOn=""
+                android:textOff=""
+                />
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -86,15 +89,17 @@
                 android:textSize="15dp"
                 android:fontFamily="@font/satoshi_regular"
                 android:textColor="#D6D6D6"
-                android:layout_marginTop="20dp"
                 android:layout_marginStart="50dp"
                 />
 
-            <ImageView
+            <ToggleButton
                 android:layout_width="60dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
-                android:src="@drawable/like" />
+                android:textOn=""
+                android:textOff=""
+                android:background="@drawable/liked_toggle"
+                />
         </LinearLayout>
 
 
@@ -103,12 +108,16 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal">
 
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@drawable/play"
+            <ToggleButton
+                android:layout_width="37dp"
+                android:layout_height="37dp"
+                android:background="@drawable/play_pause_toggle"
                 android:layout_marginStart="45dp"
-                android:layout_gravity="center"/>
+                android:layout_gravity="center"
+                android:textOn=""
+                android:textOff=""
+                />
+
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -143,15 +152,17 @@
                 android:textSize="15dp"
                 android:fontFamily="@font/satoshi_regular"
                 android:textColor="#D6D6D6"
-                android:layout_marginTop="20dp"
                 android:layout_marginStart="50dp"
                 />
 
-            <ImageView
+            <ToggleButton
                 android:layout_width="60dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
-                android:src="@drawable/like" />
+                android:textOn=""
+                android:textOff=""
+                android:background="@drawable/liked_toggle"
+                />
 
         </LinearLayout>
     </LinearLayout>
