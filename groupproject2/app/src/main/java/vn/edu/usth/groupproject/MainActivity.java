@@ -28,10 +28,14 @@ public class MainActivity extends AppCompatActivity {
 
         binding.bottomNavigationView.setOnItemSelectedListener(item -> {
 
-            switch (item.getItemId()) {
-                default:
-                    replaceFragment(new HomePageFragment());
-                    break;
+            if (item.getItemId() ==  R.id.home) {
+                replaceFragment(new HomePageFragment());
+            } else if (item.getItemId() ==  R.id.search)  {
+                replaceFragment(new HomePageFragment());
+            } else if (item.getItemId() ==  R.id.library)  {
+                replaceFragment(new HomePageFragment());
+            } else {
+                replaceFragment(new HomePageFragment());
             }
 
             return true;

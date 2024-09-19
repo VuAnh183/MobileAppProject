@@ -16,7 +16,7 @@ public class HomeFragmentPagerAdapter extends FragmentPagerAdapter {
     }
     @Override
     public Fragment getItem(int page) {
-// returns an instance of Fragment corresponding to the specified page
+    // returns an instance of Fragment corresponding to the specified page
         switch (page) {
             default:
                 return new TabFragment();
