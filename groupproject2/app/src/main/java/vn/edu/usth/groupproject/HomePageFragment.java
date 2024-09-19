@@ -3,6 +3,7 @@ package vn.edu.usth.groupproject;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
+import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewpager.widget.PagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 
@@ -18,7 +19,7 @@ import com.google.android.material.tabs.TabLayout;
  * create an instance of this fragment.
  */
 public class HomePageFragment extends Fragment {
-    
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -33,7 +34,6 @@ public class HomePageFragment extends Fragment {
 
         TabLayout tabLayout = (TabLayout) v.findViewById(R.id.tab);
         tabLayout.setupWithViewPager(pager);
-
         return v;
     }
 
